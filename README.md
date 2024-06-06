@@ -1,4 +1,4 @@
-# Going_to_Boston
+# Going to Boston
 Simple Dice Game
 The game is played in an agreed-upon number of rounds.
 
