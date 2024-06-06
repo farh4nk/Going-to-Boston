@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Going To Boston</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" type="image/x-icon" href="img/dice.png">
+</head>
+
+<body>
+
+    <h1>Going To Boston</h1>
+    <div id="initial">
+        Number of Rounds (odd): <span id="total"></span>
+        <input class="rounds" type="text" size="5"> <br><br>
+        <button class="start">Start the Game</button>
+        <b><p class="msg"></p></b>
+    </div>
+
+    <h1 class="roundsNum"></h1>
+    <h2 class = "who">Who goes first?</h2> <br><br>
+    <p class="total">Total rounds:</p>
+    <p class="current">Current round: </p>
+    <div id="players">
+        <button type="button" class="roll1">Roll The Dice!</button>
+
+        <br><br>
+        <button type="button" class="roll2">Roll The Dice!</button>
+    </div>
+    <div id="scores">
+        <p class="player1"></p>
+        <p class = "player1-score">Player 1's Score: </p>
+        <p class="player1-wins">Player 1's Wins: </p>
+        <p class="player2-wins">Player 2's Wins: </p>
+        <p class = "player2-score">Player 2's Score: </p>
+        <p class="player2"></p>
+    </div>
+
+    <b><p class="first"></p></b>
+
+    <footer>
+        <button type="button" class="restart">Restart Game</button>
+    </footer>
+    <script src="js/game.js"></script>
+</body>
+
+</html>
